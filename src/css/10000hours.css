@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'OTEnjoystoriesBA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2") format('woff2'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff") format('woff'),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf") format('opentype');
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip-path: inset(50%);
+	border: 0;
+	clip: rect(0 0 0 0);
+}
+
+:root {
+    --main-color: #FCEE21;
+    --sub-color : #fff;
+    --body-color :#5B2386;
+}
+
+/* common */
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 1920px;
+    height: 1963px;
+    background-color: var(--body-color);
+    font-family: 'GmarketSansMedium';
+    font-size: 1.6rem;
+}
+
+.description, 
+.expert-field p,
+.time-field p,
+.result div,
+footer > p {
+    color: var(--sub-color);
+} 
+
+/*style*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} 
+
+.wrap {
+    margin-top: 19.4rem;
+}
+
+
+header  h1  img {
+    width: 56.4rem;
+    height: 11.2rem;
+}
+header .clock{
+    width: 22.16rem;
+    height: 22.5rem;
+    background-image: url(/img/clock.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 14;
+}
+
+.subTitle {
+    font-family: 'OTEnjoystoriesBA';
+    font-size: 3.6rem;
+    color: #F5DF4D;
+    font-weight: bold;
+    margin-top: 12.5rem;
+}
+
+.description p {
+    font-size: 1.8rem;
+    margin-top: 7.8rem;
+}
+.description strong {
+    font-size: 2.4rem;
+    font-family: 'GmarketSansBold';
+}
+
+.expert-field p,
+.time-field p {
+    font-size:2.4rem;
+}
+
+.expert-field p {
+    margin-top: 10.2rem;
+}
+.time-field p {
+    margin-top: 2.7rem;
+}
+
+input{
+    background-color: var(--sub-color);
+    width: 22.8rem;
+    height: 5.7rem;
+    border-radius: 0.7rem;
+    font-size: 2.4rem;
+    color: #BABCBE;
+    border: none;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+button {
+    border-radius: 5.6rem;
+    border: none;
+    color: var(--body-color);
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.time button {
+    background-color: var(--main-color);
+    width: 56.5rem;
+    height: 6.6rem;
+    margin-top: 11.5rem;
+    position: relative;
+}
+
+.clickIcon {
+    width: 6.4rem;
+    height: 7.2rem;
+    background-image: url(/img/click.png);
+    background-repeat: no-repeat;
+    position:absolute;
+    left: 0.7rem;
+    background-position: right 50%;
+    
+}
+
+.result {
+    margin-top: 14.7rem;
+}
+
+.result div {
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.result strong {
+    font-weight: bold;
+    font-size : 7rem;
+}
+
+.move {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12.7rem;
+    gap: 2.7rem;
+}
+
+.practice button {
+    background-color: var(--main-color);
+    width: 35.6rem;
+    height: 6.6rem;
+}
+
+.share button {
+    background-color: var(--sub-color);
+    width: 19.1rem;
+    height: 6.6rem;
+}
+
+footer img {
+    width : 12.5rem;
+    height: 2.5rem;
+    margin-top: 13rem;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-family: 'Noto Sans KR';
+    text-align: center;
+    line-height: 1.448;
+    margin-top: 2rem;
+    margin-bottom: 2.7rem;
+}
+
+
+
+
+
+
+
+
