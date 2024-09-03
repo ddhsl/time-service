@@ -75,14 +75,27 @@ body {
 } 
 
 .wrap {
-    margin-top: 19.4rem;
+    margin-top: 14rem;
 }
 
+
+
+header h1 {
+    background-image: url('/img/clock.png'); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 22.5rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 header  h1  img {
     width: 56.4rem;
     height: 11.2rem;
 }
+
 
 .subTitle {
     font-family: 'OTEnjoystoriesBA';
@@ -95,7 +108,7 @@ header  h1  img {
 .description p {
     font-size: 1.8rem;
     margin-top: 7.8rem;
-    line-height: 1;
+    line-height: 1.8;
 }
 
 .description strong {
@@ -158,6 +171,9 @@ button {
     align-items: center;
     gap: 1.2rem;
 }
+.result div:nth-of-type(2) {
+    margin-top: 1.7rem;
+}
 
 .result strong {
     font-weight: bold;
@@ -202,11 +218,13 @@ footer p {
 
 /*모바일*/
 
-@media (max-width: 767px) {
+@media (max-width: 360px) {
     .wrap {
         margin-top: 7.6rem;
         flex-grow: 1;
         flex-shrink: 1;
+        width: 36rem;
+        height: auto;
     }
     
     
@@ -307,4 +325,5 @@ footer p {
         margin-bottom: 3.2rem;
     }
 }
+
 
