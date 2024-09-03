@@ -53,8 +53,8 @@ html {
 }
 
 body {
-    width: 1920px;
-    height: 1963px;
+    /* width: 1920px;
+    height: 1963px; */
     background-color: var(--body-color);
     font-family: 'GmarketSansMedium';
     font-size: 1.6rem;
@@ -220,7 +220,14 @@ footer p {
 }
 
 
+/*모바일*/
 
+@media (width: 360px){
+    body {
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+}
 
 
 
