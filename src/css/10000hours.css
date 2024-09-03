@@ -58,8 +58,8 @@ body {
 }
 
 .description, 
-.expert-field p,
-.time-field p,
+.expert-field span,
+.time-field span,
 .result div,
 footer > p {
     color: var(--sub-color);
@@ -116,15 +116,15 @@ header  h1  img {
     font-family: 'GmarketSansBold';
 }
 
-.expert-field p,
-.time-field p {
+.expert-field span,
+.time-field span {
     font-size:2.4rem;
 }
 
-.expert-field p {
+.expert-field  {
     margin-top: 10.2rem;
 }
-.time-field p {
+.time-field {
     margin-top: 2.7rem;
 }
 
@@ -156,8 +156,12 @@ button {
     width: 56.5rem;
     height: 6.6rem;
     margin-top: 11.5rem;
-    position: relative;
 }
+
+/* .click {
+    width: 6.4rem;   
+    height: 7.2rem;
+} */
 
 
 .result {
@@ -212,7 +216,7 @@ footer p {
     text-align: center;
     line-height: 1.448;
     margin-top: 2rem;
-    margin-bottom: 2.7rem;
+    margin-bottom: 7rem;
 }
 
 
@@ -227,7 +231,11 @@ footer p {
         height: auto;
     }
     
-    
+    header h1 {
+        height: 10.698rem ;
+        background-size: contain;
+    }
+
     header  h1  img {
         width: 26.7rem;
         height: 5.3rem;
@@ -247,16 +255,25 @@ footer p {
         font-size: 1.4rem;
     }
 
-    .expert-field p,
-    .time-field p {
+    .plan form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .expert-field span,
+    .time-field span {
         font-size:1.4rem;
     }
     
-    .expert-field p {
+    .expert-field {
         margin-top: 6.2rem;
     }
-    .time-field p {
+    .time-field {
         margin-top: 2.7rem;
+    }
+
+    .time-field span:first-child{
+        margin-bottom: 1.9rem;
     }
     
     input{
@@ -272,6 +289,11 @@ footer p {
         margin-top: 4.9rem;
         border-radius: 1.3rem;
         font-size: 1.4rem ;
+    }
+
+    .time button span {
+        display: flex;
+        flex-direction: column;
     }
     
 
