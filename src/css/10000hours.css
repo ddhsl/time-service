@@ -109,6 +109,10 @@ header  h1  img {
     font-size: 1.8rem;
     margin-top: 7.8rem;
     line-height: 1.8;
+    background-image: url(/img/qutoes.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 2rem;
 }
 
 .description strong {
@@ -158,10 +162,12 @@ button {
     margin-top: 11.5rem;
 }
 
-/* .click {
-    width: 6.4rem;   
-    height: 7.2rem;
-} */
+.time div {
+    background-image: url(/img/click.png);
+    background-repeat: no-repeat;
+    background-size: 6.4rem 7.2rem;
+    background-position: right 2rem bottom -1rem;
+}
 
 
 .result {
@@ -222,7 +228,7 @@ footer p {
 
 /*모바일*/
 
-@media (max-width: 360px) {
+@media (min-width:360px) and (max-width: 767px) {
     .wrap {
         margin-top: 7.6rem;
         flex-grow: 1;
@@ -249,6 +255,8 @@ footer p {
     .description p {
         font-size: 1.4rem;
         margin-top: 6.2rem;
+        background-size: 30.2rem 4.8rem;
+        background-position: center 2rem;
     }
 
     .description strong {
@@ -295,6 +303,12 @@ footer p {
         display: flex;
         flex-direction: column;
     }
+
+    .time div {
+        background-size: 4.3rem 4.8rem;
+        background-position: right 1.5rem bottom ;
+    }
+    
     
 
     .result {
