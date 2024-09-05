@@ -81,7 +81,7 @@ body {
 
 
 header h1 {
-    background-image: url('/img/clock.png'); 
+    background-image: url('./img/clock.png'); 
     background-repeat: no-repeat; 
     background-position: center;
     height: 22.5rem ;
@@ -109,7 +109,7 @@ header  h1  img {
     font-size: 1.8rem;
     margin-top: 7.8rem;
     line-height: 1.8;
-    background-image: url(/img/qutoes.png);
+    background-image: url(./img/qutoes.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center 2rem;
@@ -163,7 +163,7 @@ button {
 }
 
 .time div {
-    background-image: url(/img/click.png);
+    background-image: url(./img/click.png);
     background-repeat: no-repeat;
     background-size: 6.4rem 7.2rem;
     background-position: right 2rem bottom -1rem;
